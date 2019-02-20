@@ -7,7 +7,7 @@
 2. 下载并安装文本编辑器[vscode](https://code.visualstudio.com/)
 
 ::: tip
-安装方法简单便捷，需要接受协议就接受协议，一路下一步即可。
+安装方法简单便捷，接受协议，一路下一步即可。
 :::
 
 ## 查看安装结果
@@ -19,10 +19,10 @@
 
 <img :src="$withBase('/start/vscode.png')" alt="图片未显示">
 
-## 中文
+## 切换到中文界面
 
-vscode 若为英文，你也可以切换到中文
+vscode 若为英文，也可以切换到中文
 
 1. 在 vscode 左侧点击 extension 搜索 chinese
 2. 点击 `install` 安装 `Chinese(Simplified) language pack for visual studio code`
-3. 点击 `restart` 重启软件即可
+3. 点击 `restart` 重启软件
