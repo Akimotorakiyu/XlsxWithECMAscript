@@ -13,6 +13,7 @@
     "xlsx": "^0.14.1"
   },
   "devDependencies": {
+    "typescript": "^3.3.3",
     "vuepress": "^0.14.9"
   }
 }

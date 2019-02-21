@@ -2,14 +2,14 @@ module.exports = {
   title: "XlsxWithEcmaScript",
   description: "Xlsx With EcmaScript",
   base: "/xlsx/",
-  serviceWorker: {
-    // updatePopup: true // Boolean | Object, 默认值是 undefined.
-    // 如果设置为 true, 默认的文本配置将是:
-    updatePopup: {
-      message: "有新的文档内容",
-      buttonText: "更新"
-    }
-  },
+  // serviceWorker: {
+  //   updatePopup: true // Boolean | Object, 默认值是 undefined.
+  //   // 如果设置为 true, 默认的文本配置将是:
+  //   // updatePopup: {
+  //   //   message: "有新的文档内容",
+  //   //   buttonText: "更新"
+  //   // }
+  // },
   head: [["link", { rel: "stylesheet", href: "/index.css" }]],
   themeConfig: {
     lastUpdated: "更新时间",
@@ -36,7 +36,7 @@ module.exports = {
         {
           title: "项目",
           collapsable: false,
-          children: ["/project/", "/project/happend"]
+          children: ["/project/", "/project/tspro", "/project/happend"]
         },
         {
           title: "xlsx",
