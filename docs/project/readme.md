@@ -19,7 +19,7 @@
 
 下面是我的 excel 文档，我随便写了点东西
 
-<img :src="$withBase('/project/xlsx.png')" alt="图片未显示">
+<center><img :src="$withBase('/project/xlsx.png')" alt="图片未显示"></center>
 
 1. 新建`index.js`文件并打开
 2. 复制黏贴以下代码到`index.js`文件并保存
@@ -41,4 +41,4 @@ console.log(表格.Props.Worksheets);
 
 控制台输出
 
-<img :src="$withBase('/project/pro.png')" alt="图片未显示">
+<center><img :src="$withBase('/project/pro.png')" alt="图片未显示"></center>

@@ -21,7 +21,31 @@
 
 下面是我的 excel 文档，我随便写了点东西
 
-<img :src="$withBase('/project/xlsx.png')" alt="图片未显示">
+<center><img :src="$withBase('/project/xlsx.png')" alt="图片未显示"></center>
+
+0. 新建`tsconfig.json`文件并打开，输入以下文本并保存
+
+```json
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "lib": ["dom", "es6", "dom.iterable", "scripthost"]
+  },
+  "include": ["**/*", "**/*.spec.ts"],
+  "exclude": ["node_modules"]
+}
+```
 
 1. 新建`index.ts`文件并打开
 2. 复制黏贴以下代码到`index.ts`文件并保存
@@ -43,4 +67,4 @@ console.log(表格.Props.Worksheets);
 
 控制台输出
 
-<img :src="$withBase('/project/tspro.png')" alt="图片未显示">
+<center><img :src="$withBase('/project/tspro.png')" alt="图片未显示"></center>

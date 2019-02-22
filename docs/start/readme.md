@@ -17,7 +17,8 @@
 3. 输入 `node -v` 然后回车
 4. 输入 `npm -v` 然后回车
 
-<img :src="$withBase('/start/vscode.png')" alt="图片未显示">
+<center>
+<img :src="$withBase('/start/vscode.png')" alt="图片未显示"></center>
 
 ## 切换到中文界面
 

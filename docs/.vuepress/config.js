@@ -15,7 +15,7 @@ module.exports = {
     lastUpdated: "更新时间",
     nav: [
       { text: "主页", link: "/" },
-      { text: "文档", link: "/start/" },
+      { text: "文档", link: "/guide/" },
       {
         text: "github",
         link: "https://github.com/SilverLeaves/XlsxWithECMAscript"
@@ -24,13 +24,20 @@ module.exports = {
     sidebar: {
       "/": [
         {
+          title: "指南",
+          collapsable: false,
+          children: ["/guide/"]
+        },
+        {
           title: "起步",
           collapsable: false,
           children: [
             "/start/",
             "/start/helloworld",
             "/start/basic",
-            "/start/function"
+            "/start/function",
+            "/start/let",
+            "/start/more"
           ]
         },
         {
@@ -46,7 +53,7 @@ module.exports = {
         {
           title: "network",
           collapsable: false,
-          children: ["/network/"]
+          children: ["/network/", "/network/axios"]
         }
       ]
     }

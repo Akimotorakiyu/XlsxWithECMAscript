@@ -4,7 +4,7 @@ heroImage: ./logo.png
 heroText: XlsxWithEcmaScript
 tagline: xlsx With ES||TS
 actionText: 开始 →
-actionLink: /start/
+actionLink: /guide/
 features:
   - title: 语言
     details: 借助灵活、现代的ES||TS语言，可便捷处理复杂的业务逻辑。
