@@ -36,11 +36,9 @@
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
     "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./src",
-    "lib": ["dom", "es6", "dom.iterable", "scripthost"]
+    "baseUrl": "./",
+    "target": "es2017"
   },
   "include": ["**/*", "**/*.spec.ts"],
   "exclude": ["node_modules"]
