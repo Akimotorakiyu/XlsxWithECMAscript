@@ -28,17 +28,12 @@
 ```json
 {
   "compilerOptions": {
+    "target": "es2017",
     "module": "commonjs",
-    "declaration": true,
-    "noImplicitAny": false,
-    "removeComments": true,
-    "noLib": false,
-    "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "sourceMap": true,
-    "baseUrl": "./",
-    "target": "es2017"
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "include": ["**/*", "**/*.spec.ts"],
   "exclude": ["node_modules"]
