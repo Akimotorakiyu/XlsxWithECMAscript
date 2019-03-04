@@ -12,7 +12,7 @@
 
 [手册指南](https://www.tslang.cn/docs/handbook/basic-types.html)
 
-## 文本匹配用的是正则表达式
+## 文本匹配使用正则表达式
 
 - [正则表达式可视化](https://regexper.com/)
 - [正则表达式-语法](https://zhuanlan.zhihu.com/p/28672572)
