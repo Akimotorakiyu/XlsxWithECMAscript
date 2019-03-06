@@ -2,7 +2,7 @@
 
 TS debug 参考配置
 
-注意修噶 ILUJING O
+注意修改调试的入口文件路径
 
 ```json
 {

@@ -39,7 +39,8 @@ module.exports = {
             "/start/let",
             "/start/curd",
             "/start/promise",
-            "/start/more"
+            "/start/more",
+            "/start/prototype"
           ]
         },
         {
