@@ -49,6 +49,11 @@ module.exports = {
           children: ["/project/", "/project/tspro", "/project/debug"]
         },
         {
+          title: "模块",
+          collapsable: false,
+          children: ["/module/"]
+        },
+        {
           title: "xlsx",
           collapsable: false,
           children: ["/xlsx/"]
