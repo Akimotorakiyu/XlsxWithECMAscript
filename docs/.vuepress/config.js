@@ -26,7 +26,7 @@ module.exports = {
         {
           title: "指南",
           collapsable: false,
-          children: ["/guide/"]
+          children: ["/guide/", "/guide/simpleHowto", "/guide/howTo"]
         },
         {
           title: "起步",
